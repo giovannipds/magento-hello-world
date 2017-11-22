@@ -4,6 +4,8 @@
 .DS_Store
 Thumbs.db
 
+ENCRYPTION_KEY.txt
+
 sitemap.xml
 
 *.sql
