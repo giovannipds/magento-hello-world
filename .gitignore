@@ -1,5 +1,85 @@
+# Based on:
+# https://github.com/github/gitignore/blob/master/Magento.gitignore
 
 .DS_Store
-.sublime-project
-.sublime-workspace
 Thumbs.db
+
+sitemap.xml
+
+*.sql
+*.sublime-project
+*.sublime-workspace
+
+/app/etc/local.xml
+
+/media/*
+!/media/.htaccess
+
+/media/catalog
+/media/custom_options
+
+!/media/customer
+/media/customer/*
+!/media/customer/.htaccess
+
+!/media/dhl
+/media/dhl/*
+!/media/dhl/logo.jpg
+
+!/media/downloadable
+/media/downloadable/*
+!/media/downloadable/.htaccess
+
+/media/email
+/media/tmp
+/media/wrapping
+/media/wysiwyg
+
+!/media/xmlconnect
+/media/xmlconnect/*
+
+!/media/xmlconnect/custom
+/media/xmlconnect/custom/*
+!/media/xmlconnect/custom/ok.gif
+
+!/media/xmlconnect/original
+/media/xmlconnect/original/*
+!/media/xmlconnect/original/ok.gif
+
+!/media/xmlconnect/system
+/media/xmlconnect/system/*
+!/media/xmlconnect/system/ok.gif
+
+/media/xmlconnect/themes
+
+/skin/frontend/rwd/default/images/media/logo.png
+/skin/frontend/rwd/default/images/media/logo_small.png
+
+/var/*
+!/var/.htaccess
+
+!/var/package
+/var/package/*
+!/var/package/*.xml
+
+# NOTES:
+# ------
+# They say these places should be ignored, because they're auto-generated:
+#
+# downloader (or:)
+#
+# downloader/.cache
+# downloader/cache.cfg
+# downloader/connect.cfg
+#
+# includes/*
+# includes/src
+# !includes/.htaccess
+#
+# media/* (or:)
+#
+# media/catalog/product/cache
+# media/css
+# media/css_secure
+# media/js
+# media/js_secure
